@@ -4,6 +4,11 @@ export default {
     "./index.html",
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
+  safelist: [
+    'justify-between',
+    'space-x-8',
+    'md:flex',
+  ],
   theme: {
     extend: {},
   },

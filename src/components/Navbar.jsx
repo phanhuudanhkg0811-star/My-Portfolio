@@ -1,6 +1,5 @@
 import { Menu, X } from "lucide-react";
 import { useEffect, useState } from "react"
-
 function NavBar()
 {
     const [isScrolled, setIsScrolled] = useState(false)
@@ -47,7 +46,7 @@ function NavBar()
                     </span>
                 </a>
 
-                <div className="hidden md:flex items-center space-x-8 lg:mr-6">
+                <div className="hidden md:flex items-center space-x-8">
                     {navItems.map((item,key) => {
                         return <a key={key} href={item.href} className = "text-underline">
                             {item.name}
